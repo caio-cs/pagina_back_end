@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1.title {
+            background-color: darkblue;
+            color: aliceblue;
+            padding: 20px;
+        }
+
+        form {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            display: flex;
+        }
+
+        form input {
+            padding: 5px;
+            border: none;
+            outline: none;
+            flex: 1;
+        }
+
+        form button {
+            padding: 5px 10px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: crimson;
+        }
+       
+        div.lista {
+            margin-top: 10px;
+            padding: 5px;
+            display: flex;
+        }
+
+        div.item {
+            text-align: center;
+            display: 10px;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        div.item:hover {
+            background-color: darkblue;
+            cursor: pointer;
+        }
+
+        div.item img {
+            width: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">Catálogo de Carros</h1>
+    <form>
+        <input name="Pesquisar" placeholder="Digite a marca" />
+        <button>Procurar</button>
+    </form>
+    <div class="Lista">
+        <div class="item">
+            <h2>Fiat</h2>
+            <h2>Mobi</h2>
+            <h3>Ano 2022
+                R$ 51.777.00</h3>
+            <img
+                src="https://s2-oglobo.glbimg.com/I-YMj_mRU_uJO6T8mTRKLMhCBL8=/0x0:2064x1161/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/s/I/akhDQNTr6vMVwyWPf4Fw/fiatmobi.png" />
+        </div>
+        <div class="item">
+            <h2>Chevrolet</h2>
+            <h2>Onix</h2>
+            <h3>Ano 2022
+                R$ 69.690.00
+            </h3>
+            <img
+                src="https://www.chevrolet.com.br/content/dam/chevrolet/mercosur/brazil/portuguese/index/cars/2023-onix/mov/04-images/onix-premier-at-turbo.jpg?imwidth=960" />
+        </div>
+        <div class="item">
+            <h2>Volkswagen</h2>
+            <h2>Polo</h2>
+            <h3>Ano 2022
+                R$ 69.412.00
+            </h3>
+            <img src="https://www.autoo.com.br/fotos/2021/1/1280_960/Polo1aA_14012021_38028_1280_960.jpg" />
+        </div>
+    </div>
+    <script>
+        
+    </script>
+</body>
+
+</html>
